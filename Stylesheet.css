@@ -1,0 +1,46 @@
+/*jangan lupa selalu mengindentasi code CSS*/
+/*Dalam CSS selalu menambahkan titik dua : di akhir property CSS dan titik koma ; diakhir baris seperti gambar dibawah.*/
+.calculator {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 200px;
+    width: 400px;
+}
+
+.calculator-screen{ /*Adalah bagian layar untuk menampilkan angka yang kita klik*/
+    width: 100%; /*dengan menggunakan lebar 100% dimana itu adalah ukuran normal kalkulator*/ 
+    height: 100px; /*dengan tinggi normal kalkulator yaitu 100px*/
+    background-color: #252525; 
+    color: #fff; 
+    text-align: right;
+    font: 36px;
+    border: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.calculator-keys{
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+button{
+    height: 80px;
+    background-color: gray;
+    border: 1px solid black;
+    font-size: 32px;
+    color: #fff;
+    width: 25%;
+    outline: none;
+}
+
+.all-clear, .zero-btn{
+    width: 50%;
+}
+
+.operator, .equal-sign {
+    background-color: orange;
+}
